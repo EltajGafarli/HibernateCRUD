@@ -12,7 +12,7 @@ public class HProperties {
         property.setProperty("hibernate.connection.driver_class", "org.postgresql.Driver");
         property.setProperty("hibernate.connection.url", "jdbc:postgresql://localhost:5432/employees");
         property.setProperty("hibernate.connection.username", "postgres");
-        property.setProperty("hibernate.connection.password", "190407011");
+        property.setProperty("hibernate.connection.password", "postgres");
         property.setProperty("hibernate.connection.pool_size", "1");
         property.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
         property.setProperty("current_session_context_class", "thread");
